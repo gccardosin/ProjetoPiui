@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
 
   /* COLORS*/
-  --hue: 190;
+  --hue: 10;
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
@@ -307,7 +307,7 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
 #about .image::before {
@@ -333,9 +333,21 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  text-align: right;
 }
 
+
+#about .text h1 {
+  margin-bottom: 1rem;
+}
+
+#about .text p {
+  margin-bottom: 2rem;
+}
 /*------------- Services ----------------*/
+
+
+
 .wrapper {
   width: min(50rem, 100%);
   margin-inline: auto;
@@ -360,7 +372,7 @@ nav.show div.icon-close {
 
   background: white;
 
-  border: 1px solid var(--brand-light);
+  border: 1px solid var(--base-color-second);
   border-radius: 0.6rem;
 }
 
@@ -536,6 +548,10 @@ footer .social a:hover {
   }
 
   .section {
+    padding: 10rem 0;
+  }
+
+  .wrapper {
     padding: 10rem 0;
   }
 
