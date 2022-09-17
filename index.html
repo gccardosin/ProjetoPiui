@@ -1,12 +1,408 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina</title>
-</head>
-<body>
-    <h1>pagina<h1>
-</body>
+  <head>
+    <!--Page Info-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Psicanalise</title>
+
+    <!--Icones-->
+    <link rel="stylesheet" href="Assets/fonts/style.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--Styles-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Laryssa<span>Psicanalista</span>.</a>
+        <!-- Menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /Menu-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <!--################## Home #######################-->
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/photos/successful-therapy-young-female-client-having-consultation-with-for-picture-id1328878125?b=1&k=20&m=1328878125&s=170667a&w=0&h=xE0pQrq1kdvIU_Tv8iDbZT0sBp0kfQvXyfxl4Ysesfw="
+              alt="Consulta de psicanalise sendo realizada"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Apreciadora da arte de escutar</h2>
+            <p>
+              A psicanálise, sustenta e suporta que, o que não pode ser dito
+              não, pode ser calado.
+            </p>
+            <a class="button" href="#contact">Agendar Horario</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--################## About #######################-->
+      <section class="section" id="about">
+        <div class="container grid"></div>
+        <div class="image">
+          <img
+            src="https://zenklub.com.br/blog/wp-content/uploads/2018/04/pexels-cottonbro-4101143-1-1-scaled.jpg"
+            alt="Uma mulher de cabelo liso entrevistando um homem em uma Consulta"
+          />
+        </div>
+
+        <div class="text">
+          <h2 class="title">O que é a Psicanalise</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            recusandae est sint sapiente provident quidem asperiores perferendis
+            quibusdam, quas saepe dicta nesciunt culpa quo mollitia. Voluptate
+            quia modi excepturi maxime.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+            quidem quaerat itaque nesciunt, eveniet odit ullam porro in eaque
+            nostrum, dicta libero dolores! Ipsa, sapiente laboriosam numquam
+            maxime exercitationem aspernatur.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium, neque accusamus aliquam aspernatur dolor perspiciatis
+            commodi. Illum magnam quia atque, saepe tenetur dolor amet tempora
+            praesentium, voluptas debitis vitae architecto.
+          </p>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--################ Services #######################-->
+      <section id="services" id="services">
+        <div class="wrapper">
+          <header>
+            <h2 class="title">Como podemos ajudá-lo a se sentir melhor?</h2>
+          </header>
+  
+          <div class="content">
+            <div class="cards">
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Problemas digestivos</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Saúde Hormonal</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Bem-estar mental</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Cuidados Pediátricos</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Autoimune e Inflamação</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+  
+              <div class="card">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="#00856F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+  
+                <h3>Saúde do Coração</h3>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--############## Testimonials #####################-->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tempore cum non iusto quod quia fugit debitis at ratione,
+                    esse voluptatibus, hic impedit
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/60.jpg"
+                      alt=""
+                    />
+                    Fulana de Tal
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tempore cum non iusto quod quia fugit debitis at ratione,
+                    esse voluptatibus, hic impedit
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/90.jpg"
+                      alt=""
+                    />
+                    Zé de Oliveira
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Tempore cum non iusto quod quia fugit debitis at ratione,
+                    esse voluptatibus, hic impedit
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/28.jpg"
+                      alt=""
+                    />
+                    Carla Lindenberg
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--############## Contact #####################-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato comigo</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perferendis iure unde, illo amet fugiat pariatur porro
+            </p>
+            <a
+              class="button"
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=+5527981134383&text=Qualsuaduvida"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>2798845687</li>
+              <li><i class="icon-map-pin"></i>Fortaleza</li>
+              <li><i class="icon-mail"></i>Email</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--############## Footer #####################-->
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >Laryssa<span>Psicanalista</span>.</a
+          >
+          <p>© 2022 LaryssaAmazonas.</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+        <div class="social ">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="htts://youtube.com" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main Js -->
+    <script src="main.js"></script>
+  </body>
 </html>
