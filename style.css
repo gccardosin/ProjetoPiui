@@ -541,6 +541,8 @@ footer .social a:hover {
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {
   /* reusable classes */
+  
+
   .container {
     max-width: 1120px;
     margin-left: auto;
